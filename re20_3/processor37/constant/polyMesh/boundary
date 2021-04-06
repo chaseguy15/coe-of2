@@ -1,0 +1,84 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+8
+(
+    inlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       1660;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       1660;
+    }
+    cylinder
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          0;
+        startFace       1660;
+    }
+    top
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          5;
+        startFace       1660;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          6;
+        startFace       1665;
+    }
+    defaultFaces
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          1856;
+        startFace       1671;
+    }
+    procBoundary37to36
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          191;
+        startFace       3527;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        37;
+        neighbProcNo    36;
+    }
+    procBoundary37to38
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          190;
+        startFace       3718;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        37;
+        neighbProcNo    38;
+    }
+)
+
+// ************************************************************************* //

@@ -1,0 +1,8 @@
+/work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2
+Tue Apr  6 00:57:11 CDT 2021
+Running blockMesh on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2
+Running checkMesh on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2
+Running decomposePar on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2
+Running icoFoam in parallel on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2 using 64 processes
+Running reconstructPar on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section7/re20_2
+Tue Apr  6 01:06:26 CDT 2021
