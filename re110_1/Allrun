@@ -8,6 +8,6 @@ runApplication blockMesh # create the mesh
 
 runApplication checkMesh # check the mesh
 
-#runApplication icoFoam # run the solver 
+runApplication icoFoam # run the solver 
 
 #------------------------------------------------------------------------------

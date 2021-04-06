@@ -1,8 +1,0 @@
-/work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1
-Mon Apr  5 17:43:59 CDT 2021
-blockMesh already run on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1: remove log file 'log.blockMesh' to re-run
-checkMesh already run on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1: remove log file 'log.checkMesh' to re-run
-Running decomposePar on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1
-Running icoFoam in parallel on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1 using 48 processes
-Running reconstructPar on /work/06783/hslee21/stampede2/COE-347-SP21/of2/section6/re110_1
-Mon Apr  5 17:46:19 CDT 2021

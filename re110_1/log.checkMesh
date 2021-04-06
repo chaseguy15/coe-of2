@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-3bcbaf946ae9
 Exec   : checkMesh
-Date   : Apr 05 2021
-Time   : 13:29:02
+Date   : Apr 06 2021
+Time   : 14:56:28
 Host   : "chase-laptop"
-PID    : 213828
+PID    : 238597
 I/O    : uncollated
-Case   : /home/chase/Documents/COE347/OF2/meshcheck/re110_1
+Case   : /home/chase/Documents/COE347/OF2/results/coe-of2/re110_1
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)

@@ -13,11 +13,20 @@ Description
 #includeEtc "caseDicts/postProcessing/probes/probes.cfg"
 
 fields (p U);
+
+setFormat	raw;
+
 probeLocations
 (
    // each entry is a separate probe 
    // make sure to change (x1 y1 z1) and (x2 y2 z2) to
    // the probe coordinates
+
+   (2.0 -0.5 0.0)
+   (2.0  0.5 0.0)
+
+   (4.0 -0.5 0.0)
+   (4.0  0.5 0.0)
 
    (5.0 -0.5 0.0)
    (5.0  0.5 0.0)
